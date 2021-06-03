@@ -1,0 +1,32 @@
+body {
+    background-color: #B388FF;
+}
+
+#nav {
+}
+.nav{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 1280px;
+    margin: 0 auto;
+}
+.nav-li {
+    cursor: pointer;
+    font-size: 2rem;
+    padding: 10px 40px;
+    font-family: 'Source Sans Pro', sans-serif;
+    border-bottom: 0px solid black;
+    transition: border-width ease-in-out 0.1s;
+}
+.nav-li:hover {
+    border-width: 2px;
+}
+.nav-li.active{
+    color: #fff;
+    border-bottom: 2px solid #fff;
+}
+
+#main {
+    
+}
