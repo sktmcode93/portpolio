@@ -32,7 +32,7 @@ body {
     height: 500px;
     margin: 0 auto;
     position: relative;
-    margin-top: 50px;
+    margin-top: 100px;
 }
 .container {
     position: absolute;
@@ -42,9 +42,7 @@ body {
     transition: left cubic-bezier(0.42, 0, 0.12, 1.01) 0.3s;
 }
 .box {
-    overflow: scroll;
     width: 1000px;
-    height: 400px;
 }
 #profile {
     display: flex;
