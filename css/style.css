@@ -48,8 +48,9 @@ body {
 }
 #profile {
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
     align-items: center;
+    justify-content: center;
 }
 .profile-img {
     margin: 25px 0;
@@ -57,8 +58,16 @@ body {
     border-radius: 50%;
 }
 .profile-desc{
+    margin-left: 75px;
     font-size: 2rem;
     font-family: 'Noto Serif KR', serif;
+    text-align: center;
+}
+.profile-desc h5 {
+    margin: 25px 0;
+}
+.profile-desc p {
+    width: 350px;
 }
 #skill {
     display: flex;
