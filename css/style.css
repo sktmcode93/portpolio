@@ -22,11 +22,35 @@ body {
 .nav-li:hover {
     border-width: 2px;
 }
-.nav-li.active{
+.nav-li.menu-active{
     color: #fff;
     border-bottom: 2px solid #fff;
 }
 
 #main {
-    
+    /* overflow: hidden; */
+    width: 1000px;
+    height: 800px;
+    margin: 0 auto;
+    position: relative;
+}
+.container {
+    position: absolute;
+    left: -1000px;
+    top: 0;
+    display: inline-flex;
+}
+.box {
+    width: 1000px;
+    height: 800px;
+}
+#profile {
+    background-color: antiquewhite;
+
+}
+#skill {
+    background-color: aqua;
+}
+#portfolio {
+    background-color: blue;
 }
